@@ -1,0 +1,43 @@
+body {
+    background: peachpuff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-items: center;
+}
+.container {
+    width: 750px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.container img {
+    border-radius: 10px;
+    width: 750px;
+
+}
+.container h2 {
+    color: palevioletred;
+}
+.text {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lightpink;
+}
+.container ul, ol {
+    line-height: 1.8;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table td {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #444;
+}
+table td:nth-child(2) {
+    font-weight: bold;
+    color: #8B4513;
+}
